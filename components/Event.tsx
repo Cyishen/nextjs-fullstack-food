@@ -1,6 +1,6 @@
 import React from "react";
+import Halloween from "./Halloween";
 
-import { Halloween } from "./Halloween";
 
 const Event = () => {
   return (

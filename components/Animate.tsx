@@ -1,12 +1,14 @@
 "use client"
 
+import Image from "next/image";
 import React, { useEffect, useRef } from "react";
+
 
 const Animate = ({ src }: { src: string }) => {
   const imageRef = useRef<HTMLImageElement | null>(null);
 
   useEffect(() => {
-    const image = document.querySelector(`img[src="${src}"]`) 
+    const image = document.querySelector(`Img[src="${src}"]`) 
     if (image) {
       imageRef.current = image as HTMLImageElement;
       if (imageRef.current) {

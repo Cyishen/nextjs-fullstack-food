@@ -42,7 +42,7 @@ const CategoryPage = async ( {params}:Props ) => {
             </div>
           ) : (
             <div className="h-[80%] flex items-center justify-center"> 
-              <img src="https://fakeimg.pl/350x200/?text=No Image" alt="No Image Available" className="object-contain" />
+              {/* <Image src="https://fakeimg.pl/350x200/?text=No Image" fill alt="No Image Available" className="object-contain" /> */}
             </div>
           )}
 

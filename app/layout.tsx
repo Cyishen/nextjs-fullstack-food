@@ -14,7 +14,18 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'DB food',
-  description: 'Burger & Donut',
+  description: 'Best Burgers and Donuts for everyone',
+  keywords: ['burger', 'donut', 'cyi', 'DB food'],
+  other: {
+    "theme-color": "#ffffff",
+    "twitter:image": "/share.png",
+    "twitter:card": "summary_large_image",
+    "og:title": "DB food",
+    "og:description": "Best Burgers and Donuts",
+    "og:url": "",
+    "og:image": "/share.png",
+    "og:type": "website",
+  }
 }
 
 export default function RootLayout({
