@@ -31,4 +31,4 @@ npx prisma studio
 ##### install notify
 ```
 yarn add react-toastify
-```
+```# burger-fullstack
