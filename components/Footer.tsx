@@ -4,9 +4,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-200 w-full fixed bottom-0'>
-      <div className='h-12 md:h-24 p-4 flex items-center justify-between max-w-7xl mx-auto gap-3'>
-        <Link href='/' className='font-bold'>FOOD</Link>
+    <footer className='bg-gray-100 bg-opacity-50 w-full bottom-0 '>
+      <div className='h-auto md:h-24 p-4 flex items-center justify-between max-w-7xl mx-auto gap-3'>
+        <Link href='/' className='font-bold'>Donut & Burger </Link>
         <p>
           &copy; 2023 Website | All rights reserved
         </p>
