@@ -7,7 +7,7 @@ npm run dev
 ```
 
 ```
-yarn add prisma @prisma/client
+add prisma @prisma/client
 ```
 
 ##### docker folder install
@@ -30,5 +30,6 @@ npx prisma studio
 
 ##### install notify
 ```
-yarn add react-toastify
-```# burger-fullstack
+add react-toastify
+```
+# nextjs-fullstack-food
